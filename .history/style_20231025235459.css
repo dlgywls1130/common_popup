@@ -1,0 +1,126 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* common modal */
+
+.common_modal{
+    font-family: 'Noto Sans KR', sans-serif;
+    position: relative;
+}
+
+.common_modal .common_head{
+    height: 52px;
+    color: #fff;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 55px;
+    box-sizing: border-box;
+}
+
+.common_modal.blue {
+    width: 600px;
+    height: 600px;
+    background: url('../img/bg1.jpg')no-repeat;
+    background-size: cover;
+    
+}
+
+.common_modal.orange {
+    width: 800px;
+    height: 800px;
+    background: url('../img/bg2.jpg')no-repeat;
+    background-size: cover;
+}
+
+.common_modal.purple {
+    width: 700px;
+    height: 700px;
+    background: url('../img/bg3.jpg')no-repeat;
+    background-size: cover;
+}
+
+.common_modal.sky {
+    width: 500px;
+    height: 500px;
+    background: url('../img/bg4.jpg')no-repeat;
+    background-size: cover;
+}
+
+.common_modal.blue .common_body{
+    background: url('../img/bg1.jpg')no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.common_modal.orange .common_body{
+    background: url('../img/bg2.jpg')no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.common_modal.purple .common_body{
+    background: url('../img/bg3.jpg')no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.common_modal.sky .common_body{
+    background: url('../img/bg4.jpg')no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.common_footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.common_modal.blue .common_head,
+.common_modal.blue .common_footer
+{
+    background: linear-gradient(180deg, rgba(13,41,83,1) 0%, rgba(22,37,128,1) 100%);
+}
+
+.common_modal.orange .common_head,
+.common_modal.orange .common_footer
+{
+    background: linear-gradient(180deg, rgba(221,85,25,1) 0%, rgba(230,155,24,1) 100%);
+}
+
+.common_modal.purple .common_head,
+.common_modal.purple .common_footer
+{
+    background: linear-gradient(180deg, rgba(59,31,71,1) 0%, rgba(69,8,123,1) 100%);
+}
+
+.common_modal.sky .common_head,
+.common_modal.sky .common_footer
+{
+    background: linear-gradient(180deg, rgba(13,41,83,1) 0%, rgba(15,91,149,1) 100%);
+}
